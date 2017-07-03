@@ -1,0 +1,560 @@
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 512
+Processing an image of size 512 with 8 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 0.319117
+CPU Time ALGORITHM: 0.633587
+
+WC Time IO OPERATION: 0.000672
+CPU Time IO OPERATION: 0.000657
+
+Total WC Time: 0.319797
+Total CPU Time: 0.634253
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 512
+Processing an image of size 512 with 8 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 0.315327
+CPU Time ALGORITHM: 0.627917
+
+WC Time IO OPERATION: 0.000628
+CPU Time IO OPERATION: 0.000628
+
+Total WC Time: 0.315962
+Total CPU Time: 0.628553
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 512
+Processing an image of size 512 with 8 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 0.319445
+CPU Time ALGORITHM: 0.629406
+
+WC Time IO OPERATION: 0.023260
+CPU Time IO OPERATION: 0.000843
+
+Total WC Time: 0.342712
+Total CPU Time: 0.630257
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 512
+Processing an image of size 512 with 8 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 0.312788
+CPU Time ALGORITHM: 0.624136
+
+WC Time IO OPERATION: 0.000653
+CPU Time IO OPERATION: 0.000640
+
+Total WC Time: 0.313448
+Total CPU Time: 0.624784
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 512
+Processing an image of size 512 with 8 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 0.315131
+CPU Time ALGORITHM: 0.622656
+
+WC Time IO OPERATION: 0.000664
+CPU Time IO OPERATION: 0.000649
+
+Total WC Time: 0.315803
+Total CPU Time: 0.623314
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 512
+Processing an image of size 512 with 8 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000010
+
+WC Time ALGORITHM: 0.313128
+CPU Time ALGORITHM: 0.623532
+
+WC Time IO OPERATION: 0.000621
+CPU Time IO OPERATION: 0.000621
+
+Total WC Time: 0.313758
+Total CPU Time: 0.624163
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 512
+Processing an image of size 512 with 8 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000010
+
+WC Time ALGORITHM: 0.315475
+CPU Time ALGORITHM: 0.624243
+
+WC Time IO OPERATION: 0.000645
+CPU Time IO OPERATION: 0.000645
+
+Total WC Time: 0.316128
+Total CPU Time: 0.624898
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 512
+Processing an image of size 512 with 8 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 0.315864
+CPU Time ALGORITHM: 0.628742
+
+WC Time IO OPERATION: 0.000627
+CPU Time IO OPERATION: 0.000615
+
+Total WC Time: 0.316499
+Total CPU Time: 0.629365
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 512
+Processing an image of size 512 with 8 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 0.314500
+CPU Time ALGORITHM: 0.623078
+
+WC Time IO OPERATION: 0.000666
+CPU Time IO OPERATION: 0.000653
+
+Total WC Time: 0.315174
+Total CPU Time: 0.623739
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 512
+Processing an image of size 512 with 8 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 0.314293
+CPU Time ALGORITHM: 0.626781
+
+WC Time IO OPERATION: 0.000659
+CPU Time IO OPERATION: 0.000649
+
+Total WC Time: 0.314961
+Total CPU Time: 0.627439
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 512
+Processing an image of size 512 with 16 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 0.319548
+CPU Time ALGORITHM: 0.631166
+
+WC Time IO OPERATION: 0.001248
+CPU Time IO OPERATION: 0.000717
+
+Total WC Time: 0.320803
+Total CPU Time: 0.631891
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 512
+Processing an image of size 512 with 16 threads
+WC Time ALLOCATION: 0.000013
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 0.323439
+CPU Time ALGORITHM: 0.624355
+
+WC Time IO OPERATION: 0.000861
+CPU Time IO OPERATION: 0.000842
+
+Total WC Time: 0.324312
+Total CPU Time: 0.625206
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 512
+Processing an image of size 512 with 16 threads
+WC Time ALLOCATION: 0.000016
+CPU Time ALLOCATION: 0.000018
+
+WC Time ALGORITHM: 0.319502
+CPU Time ALGORITHM: 0.625966
+
+WC Time IO OPERATION: 0.000782
+CPU Time IO OPERATION: 0.000781
+
+Total WC Time: 0.320300
+Total CPU Time: 0.626765
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 512
+Processing an image of size 512 with 16 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 0.318969
+CPU Time ALGORITHM: 0.626629
+
+WC Time IO OPERATION: 0.000731
+CPU Time IO OPERATION: 0.000718
+
+Total WC Time: 0.319707
+Total CPU Time: 0.627356
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 512
+Processing an image of size 512 with 16 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 0.324349
+CPU Time ALGORITHM: 0.624059
+
+WC Time IO OPERATION: 0.000810
+CPU Time IO OPERATION: 0.000804
+
+Total WC Time: 0.325165
+Total CPU Time: 0.624871
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 512
+Processing an image of size 512 with 16 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 0.316631
+CPU Time ALGORITHM: 0.629580
+
+WC Time IO OPERATION: 0.000668
+CPU Time IO OPERATION: 0.000652
+
+Total WC Time: 0.317307
+Total CPU Time: 0.630241
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 512
+Processing an image of size 512 with 16 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 0.312397
+CPU Time ALGORITHM: 0.623244
+
+WC Time IO OPERATION: 0.000672
+CPU Time IO OPERATION: 0.000660
+
+Total WC Time: 0.313076
+Total CPU Time: 0.623913
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 512
+Processing an image of size 512 with 16 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 0.314613
+CPU Time ALGORITHM: 0.623103
+
+WC Time IO OPERATION: 0.000646
+CPU Time IO OPERATION: 0.000645
+
+Total WC Time: 0.315266
+Total CPU Time: 0.623756
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 512
+Processing an image of size 512 with 16 threads
+WC Time ALLOCATION: 0.000017
+CPU Time ALLOCATION: 0.000017
+
+WC Time ALGORITHM: 0.323080
+CPU Time ALGORITHM: 0.627874
+
+WC Time IO OPERATION: 0.000637
+CPU Time IO OPERATION: 0.000636
+
+Total WC Time: 0.323733
+Total CPU Time: 0.628527
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 512
+Processing an image of size 512 with 16 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 0.314508
+CPU Time ALGORITHM: 0.624946
+
+WC Time IO OPERATION: 0.000624
+CPU Time IO OPERATION: 0.000623
+
+Total WC Time: 0.315138
+Total CPU Time: 0.625577
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 1024
+Processing an image of size 1024 with 8 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 1.268247
+CPU Time ALGORITHM: 2.510400
+
+WC Time IO OPERATION: 0.003113
+CPU Time IO OPERATION: 0.003100
+
+Total WC Time: 1.271367
+Total CPU Time: 2.513508
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 1024
+Processing an image of size 1024 with 8 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 1.265572
+CPU Time ALGORITHM: 2.524312
+
+WC Time IO OPERATION: 0.002270
+CPU Time IO OPERATION: 0.002262
+
+Total WC Time: 1.267851
+Total CPU Time: 2.526583
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 1024
+Processing an image of size 1024 with 8 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 1.263793
+CPU Time ALGORITHM: 2.516388
+
+WC Time IO OPERATION: 0.002538
+CPU Time IO OPERATION: 0.002526
+
+Total WC Time: 1.266338
+Total CPU Time: 2.518923
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 1024
+Processing an image of size 1024 with 8 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 1.259695
+CPU Time ALGORITHM: 2.511377
+
+WC Time IO OPERATION: 0.002273
+CPU Time IO OPERATION: 0.002264
+
+Total WC Time: 1.261975
+Total CPU Time: 2.513650
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 1024
+Processing an image of size 1024 with 8 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 1.257452
+CPU Time ALGORITHM: 2.504608
+
+WC Time IO OPERATION: 0.002298
+CPU Time IO OPERATION: 0.002289
+
+Total WC Time: 1.259758
+Total CPU Time: 2.506906
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 1024
+Processing an image of size 1024 with 8 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 2.734763
+CPU Time ALGORITHM: 2.513867
+
+WC Time IO OPERATION: 0.002731
+CPU Time IO OPERATION: 0.002540
+
+Total WC Time: 2.737502
+Total CPU Time: 2.516415
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 1024
+Processing an image of size 1024 with 8 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 1.261275
+CPU Time ALGORITHM: 2.509332
+
+WC Time IO OPERATION: 0.002248
+CPU Time IO OPERATION: 0.002235
+
+Total WC Time: 1.263530
+Total CPU Time: 2.511576
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 1024
+Processing an image of size 1024 with 8 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 1.258867
+CPU Time ALGORITHM: 2.510694
+
+WC Time IO OPERATION: 0.002348
+CPU Time IO OPERATION: 0.002335
+
+Total WC Time: 1.261222
+Total CPU Time: 2.513038
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 1024
+Processing an image of size 1024 with 8 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 1.263866
+CPU Time ALGORITHM: 2.513070
+
+WC Time IO OPERATION: 0.003190
+CPU Time IO OPERATION: 0.003176
+
+Total WC Time: 1.267064
+Total CPU Time: 2.516254
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 8 1024
+Processing an image of size 1024 with 8 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 2.734798
+CPU Time ALGORITHM: 2.513064
+
+WC Time IO OPERATION: 0.002943
+CPU Time IO OPERATION: 0.002926
+
+Total WC Time: 2.737749
+Total CPU Time: 2.515998
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 1024
+Processing an image of size 1024 with 16 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 1.261422
+CPU Time ALGORITHM: 2.510985
+
+WC Time IO OPERATION: 0.002915
+CPU Time IO OPERATION: 0.002903
+
+Total WC Time: 1.264345
+Total CPU Time: 2.513897
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 1024
+Processing an image of size 1024 with 16 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 1.260484
+CPU Time ALGORITHM: 2.512033
+
+WC Time IO OPERATION: 0.002263
+CPU Time IO OPERATION: 0.002255
+
+Total WC Time: 1.262754
+Total CPU Time: 2.514297
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 1024
+Processing an image of size 1024 with 16 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 2.738014
+CPU Time ALGORITHM: 2.510527
+
+WC Time IO OPERATION: 0.002545
+CPU Time IO OPERATION: 0.002531
+
+Total WC Time: 2.740567
+Total CPU Time: 2.513066
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 1024
+Processing an image of size 1024 with 16 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 1.262779
+CPU Time ALGORITHM: 2.509261
+
+WC Time IO OPERATION: 0.002762
+CPU Time IO OPERATION: 0.002748
+
+Total WC Time: 1.265548
+Total CPU Time: 2.512017
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 1024
+Processing an image of size 1024 with 16 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 1.260897
+CPU Time ALGORITHM: 2.507097
+
+WC Time IO OPERATION: 0.002399
+CPU Time IO OPERATION: 0.002351
+
+Total WC Time: 1.263304
+Total CPU Time: 2.509457
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 1024
+Processing an image of size 1024 with 16 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 2.736903
+CPU Time ALGORITHM: 2.512293
+
+WC Time IO OPERATION: 0.002751
+CPU Time IO OPERATION: 0.002737
+
+Total WC Time: 2.739662
+Total CPU Time: 2.515039
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 1024
+Processing an image of size 1024 with 16 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 1.260711
+CPU Time ALGORITHM: 2.511445
+
+WC Time IO OPERATION: 0.002509
+CPU Time IO OPERATION: 0.002497
+
+Total WC Time: 1.263227
+Total CPU Time: 2.513951
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 1024
+Processing an image of size 1024 with 16 threads
+WC Time ALLOCATION: 0.000007
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 1.264206
+CPU Time ALGORITHM: 2.514383
+
+WC Time IO OPERATION: 0.003168
+CPU Time IO OPERATION: 0.003150
+
+Total WC Time: 1.267381
+Total CPU Time: 2.517541
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 1024
+Processing an image of size 1024 with 16 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000008
+
+WC Time ALGORITHM: 1.262250
+CPU Time ALGORITHM: 2.512035
+
+WC Time IO OPERATION: 0.002387
+CPU Time IO OPERATION: 0.002375
+
+Total WC Time: 1.264645
+Total CPU Time: 2.514418
+
++ mpirun -host localhost ./mandelbrot -0.188 -0.012 0.554 0.754 16 1024
+Processing an image of size 1024 with 16 threads
+WC Time ALLOCATION: 0.000008
+CPU Time ALLOCATION: 0.000009
+
+WC Time ALGORITHM: 2.737884
+CPU Time ALGORITHM: 2.511232
+
+WC Time IO OPERATION: 0.002612
+CPU Time IO OPERATION: 0.002600
+
+Total WC Time: 2.740503
+Total CPU Time: 2.513841
+
