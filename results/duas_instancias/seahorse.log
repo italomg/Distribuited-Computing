@@ -1,10 +1,10 @@
 
- Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 4 8192':
+ Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 8 8192':
 
-      69262.096222      task-clock (msec)         #    2.796 CPUs utilized          
-               314      context-switches          #    0.005 K/sec                  
-                15      cpu-migrations            #    0.000 K/sec                  
-            75,880      page-faults               #    0.001 M/sec                  
+      64398.078826      task-clock (msec)         #    3.516 CPUs utilized          
+             5,315      context-switches          #    0.083 K/sec                  
+                30      cpu-migrations            #    0.000 K/sec                  
+            75,899      page-faults               #    0.001 M/sec                  
    <not supported>      cycles                   
    <not supported>      stalled-cycles-frontend  
    <not supported>      stalled-cycles-backend   
@@ -16,15 +16,15 @@
    <not supported>      LLC-loads                
    <not supported>      LLC-load-misses          
 
-      24.770045767 seconds time elapsed
+      18.316990764 seconds time elapsed
 
 
- Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 4 8192':
+ Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 8 8192':
 
-      69908.306081      task-clock (msec)         #    2.822 CPUs utilized          
-               337      context-switches          #    0.005 K/sec                  
-                10      cpu-migrations            #    0.000 K/sec                  
-            75,888      page-faults               #    0.001 M/sec                  
+      64306.161146      task-clock (msec)         #    3.450 CPUs utilized          
+             5,317      context-switches          #    0.083 K/sec                  
+                31      cpu-migrations            #    0.000 K/sec                  
+            75,900      page-faults               #    0.001 M/sec                  
    <not supported>      cycles                   
    <not supported>      stalled-cycles-frontend  
    <not supported>      stalled-cycles-backend   
@@ -36,15 +36,15 @@
    <not supported>      LLC-loads                
    <not supported>      LLC-load-misses          
 
-      24.775708912 seconds time elapsed
+      18.639754887 seconds time elapsed
 
 
- Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 4 8192':
+ Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 8 8192':
 
-      70313.865413      task-clock (msec)         #    2.818 CPUs utilized          
-               360      context-switches          #    0.005 K/sec                  
-                15      cpu-migrations            #    0.000 K/sec                  
-            75,888      page-faults               #    0.001 M/sec                  
+      64515.896762      task-clock (msec)         #    3.505 CPUs utilized          
+             5,340      context-switches          #    0.083 K/sec                  
+                29      cpu-migrations            #    0.000 K/sec                  
+            75,893      page-faults               #    0.001 M/sec                  
    <not supported>      cycles                   
    <not supported>      stalled-cycles-frontend  
    <not supported>      stalled-cycles-backend   
@@ -56,15 +56,15 @@
    <not supported>      LLC-loads                
    <not supported>      LLC-load-misses          
 
-      24.949274005 seconds time elapsed
+      18.406522062 seconds time elapsed
 
 
- Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 4 8192':
+ Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 8 8192':
 
-      69014.663667      task-clock (msec)         #    2.765 CPUs utilized          
-               293      context-switches          #    0.004 K/sec                  
-                11      cpu-migrations            #    0.000 K/sec                  
-            75,888      page-faults               #    0.001 M/sec                  
+      64345.916214      task-clock (msec)         #    3.520 CPUs utilized          
+             5,345      context-switches          #    0.083 K/sec                  
+                25      cpu-migrations            #    0.000 K/sec                  
+            75,899      page-faults               #    0.001 M/sec                  
    <not supported>      cycles                   
    <not supported>      stalled-cycles-frontend  
    <not supported>      stalled-cycles-backend   
@@ -76,34 +76,14 @@
    <not supported>      LLC-loads                
    <not supported>      LLC-load-misses          
 
-      24.959367019 seconds time elapsed
+      18.282173458 seconds time elapsed
 
 
- Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 4 8192':
+ Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 8 8192':
 
-      69989.618229      task-clock (msec)         #    2.818 CPUs utilized          
-               356      context-switches          #    0.005 K/sec                  
-                17      cpu-migrations            #    0.000 K/sec                  
-            75,895      page-faults               #    0.001 M/sec                  
-   <not supported>      cycles                   
-   <not supported>      stalled-cycles-frontend  
-   <not supported>      stalled-cycles-backend   
-   <not supported>      instructions             
-   <not supported>      branches                 
-   <not supported>      branch-misses            
-   <not supported>      L1-dcache-loads          
-   <not supported>      L1-dcache-load-misses    
-   <not supported>      LLC-loads                
-   <not supported>      LLC-load-misses          
-
-      24.833822716 seconds time elapsed
-
-
- Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 4 8192':
-
-      69939.702012      task-clock (msec)         #    2.811 CPUs utilized          
-               344      context-switches          #    0.005 K/sec                  
-                15      cpu-migrations            #    0.000 K/sec                  
+      64362.286897      task-clock (msec)         #    3.497 CPUs utilized          
+             5,355      context-switches          #    0.083 K/sec                  
+                31      cpu-migrations            #    0.000 K/sec                  
             75,886      page-faults               #    0.001 M/sec                  
    <not supported>      cycles                   
    <not supported>      stalled-cycles-frontend  
@@ -116,15 +96,15 @@
    <not supported>      LLC-loads                
    <not supported>      LLC-load-misses          
 
-      24.877069213 seconds time elapsed
+      18.404305096 seconds time elapsed
 
 
- Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 4 8192':
+ Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 8 8192':
 
-      69277.991321      task-clock (msec)         #    2.766 CPUs utilized          
-               354      context-switches          #    0.005 K/sec                  
-                14      cpu-migrations            #    0.000 K/sec                  
-            75,885      page-faults               #    0.001 M/sec                  
+      64330.070116      task-clock (msec)         #    3.514 CPUs utilized          
+             5,321      context-switches          #    0.083 K/sec                  
+                40      cpu-migrations            #    0.001 K/sec                  
+            75,899      page-faults               #    0.001 M/sec                  
    <not supported>      cycles                   
    <not supported>      stalled-cycles-frontend  
    <not supported>      stalled-cycles-backend   
@@ -136,15 +116,15 @@
    <not supported>      LLC-loads                
    <not supported>      LLC-load-misses          
 
-      25.048879900 seconds time elapsed
+      18.305107107 seconds time elapsed
 
 
- Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 4 8192':
+ Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 8 8192':
 
-      69511.741135      task-clock (msec)         #    2.755 CPUs utilized          
-               320      context-switches          #    0.005 K/sec                  
-                16      cpu-migrations            #    0.000 K/sec                  
-            75,882      page-faults               #    0.001 M/sec                  
+      64313.856220      task-clock (msec)         #    3.515 CPUs utilized          
+             5,299      context-switches          #    0.082 K/sec                  
+                32      cpu-migrations            #    0.000 K/sec                  
+            75,889      page-faults               #    0.001 M/sec                  
    <not supported>      cycles                   
    <not supported>      stalled-cycles-frontend  
    <not supported>      stalled-cycles-backend   
@@ -156,15 +136,15 @@
    <not supported>      LLC-loads                
    <not supported>      LLC-load-misses          
 
-      25.229059326 seconds time elapsed
+      18.295662420 seconds time elapsed
 
 
- Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 4 8192':
+ Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 8 8192':
 
-      69901.420861      task-clock (msec)         #    2.798 CPUs utilized          
-               354      context-switches          #    0.005 K/sec                  
-                12      cpu-migrations            #    0.000 K/sec                  
-            75,887      page-faults               #    0.001 M/sec                  
+      64889.468127      task-clock (msec)         #    3.512 CPUs utilized          
+             5,362      context-switches          #    0.083 K/sec                  
+                33      cpu-migrations            #    0.001 K/sec                  
+            75,904      page-faults               #    0.001 M/sec                  
    <not supported>      cycles                   
    <not supported>      stalled-cycles-frontend  
    <not supported>      stalled-cycles-backend   
@@ -176,15 +156,15 @@
    <not supported>      LLC-loads                
    <not supported>      LLC-load-misses          
 
-      24.986309515 seconds time elapsed
+      18.478418446 seconds time elapsed
 
 
- Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 4 8192':
+ Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 8 8192':
 
-      68974.330480      task-clock (msec)         #    2.786 CPUs utilized          
-               308      context-switches          #    0.004 K/sec                  
-                14      cpu-migrations            #    0.000 K/sec                  
-            75,885      page-faults               #    0.001 M/sec                  
+      64344.870289      task-clock (msec)         #    3.498 CPUs utilized          
+             5,337      context-switches          #    0.083 K/sec                  
+                34      cpu-migrations            #    0.001 K/sec                  
+            75,893      page-faults               #    0.001 M/sec                  
    <not supported>      cycles                   
    <not supported>      stalled-cycles-frontend  
    <not supported>      stalled-cycles-backend   
@@ -196,5 +176,25 @@
    <not supported>      LLC-loads                
    <not supported>      LLC-load-misses          
 
-      24.756197803 seconds time elapsed
+      18.397060648 seconds time elapsed
+
+
+ Performance counter stats for 'mpirun -host instance-1,instance-2 ./mandelbrot -0.800 -0.700 0.050 0.150 8 8192':
+
+      64389.628078      task-clock (msec)         #    3.521 CPUs utilized          
+             5,343      context-switches          #    0.083 K/sec                  
+                34      cpu-migrations            #    0.001 K/sec                  
+            75,898      page-faults               #    0.001 M/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      LLC-loads                
+   <not supported>      LLC-load-misses          
+
+      18.287121930 seconds time elapsed
 
