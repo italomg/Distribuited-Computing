@@ -2,7 +2,7 @@
 
 set -o xtrace
 
-MEASUREMENTS=2
+MEASUREMENTS=10
 SIZE=8192
 INSTANCES=localhost
 THREADS=$(nproc)
