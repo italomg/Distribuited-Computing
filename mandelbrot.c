@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <math.h>
 #include <pthread.h>
-#include "time_utils.h"
+//#include "time_utils.h"
+#include <stdio.h>
 #include "mpi.h"
 
 double c_x_min = 0.0f;
@@ -216,40 +217,40 @@ int main(int argc, char *argv[]){
     init(argc, argv, num_tasks, rank);
 
     /* Initialize Time Utils */
-    struct timespec wc_start[STEPS_SIZE], wc_end[STEPS_SIZE];
-    double cpu_start[STEPS_SIZE], cpu_end[STEPS_SIZE];
+    //struct timespec wc_start[STEPS_SIZE], wc_end[STEPS_SIZE];
+    //double cpu_start[STEPS_SIZE], cpu_end[STEPS_SIZE];
     /*************************/
 
     /* Allocate Memory */
-    start_timers(cpu_start, wc_start, alloc);
+    //start_timers(cpu_start, wc_start, alloc);
     image_buffer = (char *) malloc(sizeof(char) * 3 * image_buffer_size);
     if (rank == 0) {
         total_image_buffer = (char *) malloc(sizeof(char) * image_size * 3 * image_size);
     }
-    end_timers(cpu_end, wc_end, alloc);
+    //end_timers(cpu_end, wc_end, alloc);
     /*************************/
 
     /* Execute Algorithm */
-    start_timers(cpu_start, wc_start, calc);
+    //start_timers(cpu_start, wc_start, calc);
     call_mandelbrot();
     int i = 0;
     for(i = 0; i < nthreads; i++)
         pthread_join(thread_pool[i], NULL);
 
     MPI_Gather(image_buffer, 3 * image_buffer_size, MPI_CHAR, total_image_buffer, 3 * image_buffer_size, MPI_CHAR, 0, MPI_COMM_WORLD);
-    end_timers(cpu_end, wc_end, calc);
+    //end_timers(cpu_end, wc_end, calc);
     /*************************/
 
     /* Write to File */
-    start_timers(cpu_start, wc_start, ioops);
+    //start_timers(cpu_start, wc_start, ioops);
     if (rank == 0)
         write_to_file();
-    end_timers(cpu_end, wc_end, ioops);
+    //end_timers(cpu_end, wc_end, ioops);
     /*************************/
 
     MPI_Finalize();
-    printf("Processing an image of size %d with %d threads\n", image_size,nthreads);
-    print_elapsed(cpu_start, wc_start, cpu_end, wc_end);
+    //printf("Processing an image of size %d with %d threads\n", image_size,nthreads);
+    //print_elapsed(cpu_start, wc_start, cpu_end, wc_end);
 
     return 0;
 };
