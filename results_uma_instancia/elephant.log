@@ -1,0 +1,40 @@
+
+ Performance counter stats for 'mpirun -host localhost ./mandelbrot 0.175 0.375 -0.100 0.100 8 8192':
+
+     105693.325875      task-clock (msec)         #    6.161 CPUs utilized          
+               336      context-switches          #    0.003 K/sec                  
+                14      cpu-migrations            #    0.000 K/sec                  
+           100,045      page-faults               #    0.947 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      LLC-loads                
+   <not supported>      LLC-load-misses          
+
+      17.154525822 seconds time elapsed
+
+
+ Performance counter stats for 'mpirun -host localhost ./mandelbrot 0.175 0.375 -0.100 0.100 8 8192':
+
+     104928.918523      task-clock (msec)         #    6.289 CPUs utilized          
+               345      context-switches          #    0.003 K/sec                  
+                13      cpu-migrations            #    0.000 K/sec                  
+           100,045      page-faults               #    0.953 K/sec                  
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      LLC-loads                
+   <not supported>      LLC-load-misses          
+
+      16.684362618 seconds time elapsed
+
