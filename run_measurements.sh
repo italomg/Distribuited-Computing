@@ -2,7 +2,7 @@
 
 set -o xtrace
 
-MEASUREMENTS=10
+MEASUREMENTS=1
 SIZE=8192
 INSTANCES=instance-1,instance-2
 THREADS=8

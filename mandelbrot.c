@@ -243,8 +243,8 @@ int main(int argc, char *argv[]){
 
     /* Write to File */
     //start_timers(cpu_start, wc_start, ioops);
-    if (rank == 0)
-        write_to_file();
+    /*if (rank == 0)
+        write_to_file();*/
     //end_timers(cpu_end, wc_end, ioops);
     /*************************/
 
