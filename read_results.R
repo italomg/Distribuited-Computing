@@ -10,6 +10,16 @@ elephant_duas_instancias = read.table("./results/duas_instancias/elephant.log", 
 seahorse_duas_instancias = read.table("./results/duas_instancias/seahorse.log", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
 triplesp_duas_instancias = read.table("./results/duas_instancias/triplesp.log", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
 
+full_quatro_instancias = read.table("./results/quatro_instancias/full.log", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
+elephant_quatro_instancias = read.table("./results/quatro_instancias/elephant.log", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
+seahorse_quatro_instancias = read.table("./results/quatro_instancias/seahorse.log", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
+triplesp_quatro_instancias = read.table("./results/quatro_instancias/triplesp.log", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
+
+full_oito_instancias = read.table("./results/oito_instancias/full.log", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
+elephant_oito_instancias  = read.table("./results/oito_instancias/elephant.log", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
+seahorse_oito_instancias  = read.table("./results/oito_instancias/seahorse.log", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
+triplesp_oito_instancias  = read.table("./results/oito_instancias/triplesp.log", header = FALSE, sep = "\t", stringsAsFactors = FALSE)
+
 
 fulldata = rbind(
   full_uma_instancia,
@@ -19,7 +29,15 @@ fulldata = rbind(
   full_duas_instancias,
   elephant_duas_instancias,
   seahorse_duas_instancias,
-  triplesp_duas_instancias
+  triplesp_duas_instancias,
+  full_quatro_instancias,
+  elephant_quatro_instancias,
+  seahorse_quatro_instancias,
+  triplesp_quatro_instancias,
+  full_oito_instancias,
+  elephant_oito_instancias,
+  seahorse_oito_instancias,
+  triplesp_oito_instancias
 )
 
 names(fulldata) <- "output_line" 
