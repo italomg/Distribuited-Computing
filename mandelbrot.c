@@ -175,7 +175,7 @@ void* compute_mandelbrot(void* args){
                 z_y_squared = z_y * z_y;
             };
 
-            update_rgb_buffer(iteration, i_x, i_y);
+            // update_rgb_buffer(iteration, i_x, i_y);
         };
     };
 
@@ -223,10 +223,10 @@ int main(int argc, char *argv[]){
 
     /* Allocate Memory */
     //start_timers(cpu_start, wc_start, alloc);
-    image_buffer = (char *) malloc(sizeof(char) * 3 * image_buffer_size);
-    if (rank == 0) {
-        total_image_buffer = (char *) malloc(sizeof(char) * image_size * 3 * image_size);
-    }
+    // image_buffer = (char *) malloc(sizeof(char) * 3 * image_buffer_size);
+    // if (rank == 0) {
+    //     total_image_buffer = (char *) malloc(sizeof(char) * image_size * 3 * image_size);
+    // }
     //end_timers(cpu_end, wc_end, alloc);
     /*************************/
 
@@ -237,7 +237,8 @@ int main(int argc, char *argv[]){
     for(i = 0; i < nthreads; i++)
         pthread_join(thread_pool[i], NULL);
 
-    MPI_Gather(image_buffer, 3 * image_buffer_size, MPI_CHAR, total_image_buffer, 3 * image_buffer_size, MPI_CHAR, 0, MPI_COMM_WORLD);
+    // MPI_Gather(image_buffer, 3 * image_buffer_size, MPI_CHAR, total_image_buffer, 3 * image_buffer_size, MPI_CHAR, 0, MPI_COMM_WORLD);
+    MPI_Gather(image_buffer, 0, MPI_CHAR, total_image_buffer, 0, MPI_CHAR, 0, MPI_COMM_WORLD);
     //end_timers(cpu_end, wc_end, calc);
     /*************************/
 
