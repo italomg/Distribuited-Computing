@@ -1,0 +1,20 @@
+
+ Performance counter stats for 'mpirun -host cpu2-1,cpu2-2,cpu2-3,cpu2-4 ./mandelbrot -2.500 1.500 -2.000 2.000 2 8192' (10 runs):
+
+       7216.887869      task-clock (msec)         #    0.952 CPUs utilized            ( +-  0.70% )
+               170      context-switches          #    0.024 K/sec                    ( +-  0.66% )
+                23      cpu-migrations            #    0.003 K/sec                    ( +-  4.16% )
+            64,328      page-faults               #    0.009 M/sec                    ( +-  0.00% )
+   <not supported>      cycles                   
+   <not supported>      stalled-cycles-frontend  
+   <not supported>      stalled-cycles-backend   
+   <not supported>      instructions             
+   <not supported>      branches                 
+   <not supported>      branch-misses            
+   <not supported>      L1-dcache-loads          
+   <not supported>      L1-dcache-load-misses    
+   <not supported>      LLC-loads                
+   <not supported>      LLC-load-misses          
+
+       7.577478577 seconds time elapsed                                          ( +-  0.51% )
+
